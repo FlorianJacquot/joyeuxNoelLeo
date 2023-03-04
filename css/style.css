@@ -49,7 +49,7 @@ hr.content-divider {
 /*
   background: url(https://source.unsplash.com/featured/?nature);
 */
-  background: url(./images/inalco_sanglant.png);
+  background: url(../images/inalco_sanglant.png);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -62,7 +62,7 @@ hr.content-divider {
 }
 
 #parallax-2 {
-  background: url(./images/pain-levain_1.jpg);
+  background: url(../images/pain-levain_1.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -75,7 +75,7 @@ hr.content-divider {
 }
 
 #parallax-3 {
-  background: url(./images/plantes.jpg);
+  background: url(../images/plantes.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
