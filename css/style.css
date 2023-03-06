@@ -66,6 +66,14 @@ hr.content-divider {
   background: coral;
 }
 
+#link-inalco {
+  color: red;
+}
+
+#link-inalco:hover {
+  color: rgb(152, 0, 0);
+}
+
 #parallax-2 {
   background: url(../images/pain-levain_1.jpg);
   background-attachment: fixed;
