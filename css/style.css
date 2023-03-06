@@ -1,6 +1,7 @@
 .va {
   display: flex;
   align-items: center;
+  flex-direction: column;
 }
 
 .hero,
@@ -9,7 +10,7 @@
 }
 
 .cta {
-  height: 500px;
+  padding: 5px;
   border-top: 10px solid turquoise;
 }
 
@@ -24,6 +25,10 @@ footer strong {
 
 footer a {
   color: turquoise;
+}
+
+.cta hr {
+  background: turquoise;
 }
 
 .title {
@@ -144,12 +149,13 @@ BUTTON COMMENTAIRE
 }
 
 .btn-two:hover::before {
-  content: 'LA FLEMME';
+  content: 'VOUS L\'ÊTES DÉJÀ';
+/*
   transform: translateX(30cm);
+*/
   background-color: rgba(255,255,255,0);
 }
 
 .btn-two:active {
-  transform: translateX(-30cm);
   background-color: rgba(255,255,255,0);
 }
