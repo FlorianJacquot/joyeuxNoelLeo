@@ -225,6 +225,7 @@ ALBUM PHOTO
   display: none;
 }
 
+/*
 .click-zoom img {
   transition: transform 0.25s ease;
   cursor: zoom-in;
@@ -237,6 +238,7 @@ ALBUM PHOTO
   transform: scale(2);
   cursor: zoom-out;
 }
+*/
 
 
 
