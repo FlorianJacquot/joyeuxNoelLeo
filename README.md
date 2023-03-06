@@ -1,3 +1,3 @@
 # joyeuxNoelLeo
 
-[[https://florianjacquot.github.io/joyeuxNoelLeo/]]
+[Accès site web](https://florianjacquot.github.io/joyeuxNoelLeo/)
