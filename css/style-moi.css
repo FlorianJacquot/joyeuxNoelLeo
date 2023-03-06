@@ -224,3 +224,34 @@ ALBUM PHOTO
   cursor: zoom-out;
 }
 
+
+
+/*
+===============
+NAVIGATION BAR
+===============
+*/
+/*
+.lang-dropdown .navbar-dropdown {
+  width: 180px;
+}
+
+.lang-dropdown .navbar-dropdown .navbar-item {
+  display: flex;
+  align-items: center;
+}
+
+.lang-dropdown .navbar-dropdown .navbar-item img {
+	display: block;
+	height: 26px;
+	width: 26px;
+	min-width: 26px;
+	border-radius: 50%;
+}
+
+.lang-dropdown .navbar-dropdown .navbar-item img span {
+  display: block;
+  margin-left: 10px;
+}
+*/
+

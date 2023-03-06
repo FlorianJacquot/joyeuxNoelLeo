@@ -12,27 +12,74 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css" />
     <link rel="stylesheet" href="../css/style-moi.css">
+    
+    <script src="../navbar-mobile.js"></script> 
   </head>
 
   <body>
+	  
+	<nav class="navbar" role="navigation" aria-label="main navigation">
+	  <div class="navbar-brand">
+		<a class="navbar-item" href="../index.html">
+		  <img src="../images/logo_cat-plant.png">
+		</a>
+
+		<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+		  <span></span>
+		  <span></span>
+		  <span></span>
+		</a>
+	  </div>
+
+	  <div id="navbarBasicExample" class="navbar-menu">
+		<div class="navbar-start">
+		  <a class="navbar-item" href="../index.html">
+			Accueil
+		  </a>
+
+		  <a class="navbar-item" href="moi-fr.html">
+			Présentation
+		  </a>
+
+		</div>
+
+		<div class="navbar-end">
+		  <div class="navbar-item has-dropdown is-hoverable lang-dropdown">
+			<a class="navbar-link is-arrowless">
+			  <img src="../images/france-flag.png" alt="">
+			  <span>Français</span>
+			</a>
+
+			<div class="navbar-dropdown is-boxed is-right">
+			  <a class="navbar-item" href="moi-jp.html">
+				<img src="../images/japan-flag.png" alt="">
+				<span>日本語</span>
+			  </a>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</nav>
+
     <div class="tile is-6 is-parent" id="left">
 	<div class="tile is-child pink post">
-	    <p class="title is-2 name">ルナと申します！</p>
-	    <p class="subtitle has-text-grey job">猫 &amp; キャットフードイーター</p>
+	    <p class="title is-2 name">Moi, c'est Luna！</p>
+	    <p class="subtitle has-text-grey job">Chatte &amp; Mangeuse de patée</p>
 	    <hr class="hr" />
 	    <div class="content has-text-grey description" id="description-luna">
 		<p>
-&emsp;わたくしは猫でございます。美しい毛並み、しなやかな体つき、愛らしい肉球、そして甘い声で知られていますわ。
+&emsp;Je suis un chat de sexe féminin. Le monde me connaît pour mon pelage magnifique, ma souplesse emplie de grâce, mes adorable coussinets mais surtout, pour ma voix pleine de douceur.
 		</p>
 		<p>
-&emsp;忠実な臣下は、私を甘えん坊のように扱いるが、私のあらゆる願いに応えるのが普通ではないでしょうか。残念ですが、全然聞かないから、文句を言うのが必要でございますこと。</p>
+&emsp;Mes fidèles sujets me traitent bien souvent comme une enfant gâtée, mais n'est-il pas normal qu'ils répondent à tous mes désirs ? Malheureusement, ils ne m'écoutent pas du tout ; il est donc de ma responsabilité de le leur faire savoir.</p>
 		<p>
-&emsp;趣味は眠ったり、食べたりすることですわ。雨が降らなくて暖かい日に外に良く行くのも大好きですこと。
+&emsp;Dans la vie, j'aime dormir et manger. J'apprécie aussi de sortir quand il fait chaud et qu'il ne pleut pas.
 		</p>
 		<p>
-&emsp;私は、ただ猫であり、誇りを持って生きている。
+&emsp;Je ne suis qu'un chat qui vit avec fièreté.
 		</p>
 	    </div>
+<!--
 	    <div class="buttons">
 		<button class="button is-medium is-twitter" style="width: 50px;">
 		    <i class="fab fa-twitter fa-lg"></i>
@@ -47,6 +94,7 @@
 		    <i class="fab fa-github fa-lg"></i>
 		</button>
 	    </div>
+-->
 	</div>
     </div>
     <div class="tile is-6 is-parent" id="right"></div>
@@ -57,49 +105,49 @@
 		<label>
 		<input type="checkbox">
 		<img class='grid-item grid-item-1' src='../images/luna_eleganto.jpg' alt=''>
-		<p>"エレガント"</p>
+		<p>"L'élégance"</p>
 		</label>
 	  </div>
 	  <div class="click-zoom">
 		<label>
 		<input type="checkbox">
 		<img class='grid-item grid-item-2' src='../images/luna_perche.jpg' alt=''>
-		<p>"Pâtéeはどこでございますか"</p>
+		<p>"Mais où est ma pâtée ?"</p>
 		</label>
 	  </div>
 	  <div class="click-zoom">
 		<label>
 		<input type="checkbox">
 		<img class='grid-item grid-item-4' src='../images/luna_Zzzz2.jpg' alt=''>
-		<p>"毛布に埋もれる鼻"</p>
+		<p>"Le nez dans la couette"</p>
 		</label>
 	  </div>
 	  <div class="click-zoom">
 		<label>
 		<input type="checkbox">
 		<img class='grid-item grid-item-3' src='../images/luna_trop-pres.jpg' alt=''>
-		<p>"下がれよ！"</p>
+		<p>"Recule !"</p>
 		</label>
 	  </div>
 	  <div class="click-zoom">
 		<label>
 		<input type="checkbox">
 		<img class='grid-item grid-item-4' src='../images/luna_Zzzz.jpg' alt=''>
-		<p>"ぐうぐう寝ている"</p>
+		<p>"Zzzzzz"</p>
 		</label>
 	  </div>
 	  <div class="click-zoom">
 		<label>
 		<input type="checkbox">
 		<img class='grid-item grid-item-4' src='../images/luna_beauty.jpg' alt=''>
-		<p>"その蝶々つかみましょうか"</p>
+		<p>"Devrais-je attraper ce papillon ?"</p>
 		</label>
 	  </div>
 	  <div class="click-zoom">
 		<label>
 		<input type="checkbox">
 		<img class='grid-item grid-item-4' src='../images/luna_outdoor-stretching.jpg' alt=''>
-		<p>"ヨガタイム"</p>
+		<p>"Yoga time"</p>
 		</label>
 	  </div>
 	</div>
